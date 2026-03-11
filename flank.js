@@ -800,7 +800,7 @@ function text_5RoutineBegin(snapshot) {
     Accept: '*/*', 
     }, 
     body: JSON.stringify({ 
-    experimentID: 'ANtoGjgERbLR', // * обновить, указав experiment ID из DATAPIPE на шаге 4.3 * 
+    experimentID: 'ANtoGjgERbLR',
     filename: filename,  
     data: data, 
     }), 
@@ -921,4 +921,5 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
