@@ -1,0 +1,3 @@
+﻿stimuls,condition,response,thisN,thisTrialN,thisRepN,trials.thisRepN,trials.thisTrialN,trials.thisN,trials.thisIndex,thisRow.t,notes,instr.started,text.started,key_resp.started,instr.stopped,key_resp.keys,key_resp.rt,key_resp.duration,participant,session,date,expName,expVersion,psychopyVersion,frameRate,expStart,
+,,,,,,,,,,,,0.005574084003455937,0.015405500016640872,0.015405500016640872,2.090455541998381,space,1.9856085840146989,None,pilot,001,2026-03-05_16h57.36.145,flank,,2025.2.4,None,2026-03-05 16h57.36.203535 +0300,
+>>>>>,congruent,right,0,0,0,0,0,0,13,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,555 @@
+14.0763 	DEBUG 	Fullscreen settings ignored as running in pilot mode.
+14.0790 	INFO 	Loaded monitor calibration from ['2026_01_12 00:18']
+14.2032 	INFO 	Using renderer 'Apple M3' for graphics
+14.2032 	INFO 	OpenGL version supported by driver is 2..
+14.2153 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, backgroundFit=<method-wrapper '__getattribute__' of attributeSetter object at 0x1673766e0>, backgroundImage=<method-wrapper '__getattribute__' of attributeSetter object at 0x167376740>, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([0, 0, 0]), colorSpace='rgb', depthBits=8, fullscr=False, gamma=None, gammaErrorPolicy='raise', infoMsg=UNKNOWN, lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x167404d00>, multiSample=False, name='window1', numSamples=2, pos=[np.float64(335.0), np.float64(178.0)], screen=0, size=array([1600, 1200]), stencilBits=0, stereo=False, title='PsychoPy', units='height', useFBO=True, useRetina=True, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+14.2153 	EXP 	window1: backgroundImage = ''
+14.2153 	EXP 	window1: backgroundFit = 'none'
+14.2309 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.2400 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.2492 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.2586 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.2679 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.2768 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.2860 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.2953 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3042 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3131 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3223 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3315 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3406 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3498 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3589 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3681 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3773 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3862 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.3952 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4045 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4135 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4136 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.4162 	DEBUG 	Upload of Texture Font fontname complete
+14.4287 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4381 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4474 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+14.4475 	DEBUG 	Uploading Texture Font fontname to graphics card
+14.4492 	DEBUG 	Upload of Texture Font fontname complete
+14.4503 	EXP 	window1: Attempting to measure frame rate of screen (0) ...
+14.4503 	EXP 	window1: recordFrameIntervals = False
+14.5913 	EXP 	window1: recordFrameIntervals = True
+15.4256 	WARNING 	Couldn't measure a consistent frame rate!
+  - Is your graphics card set to sync to vertical blank?
+  - Are you running other processes on your computer?
+
+15.4515 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.4649 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.4765 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.4874 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.4975 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5071 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5159 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5247 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5338 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5429 	DEBUG 	TextBox2 loaded 1 chars with 0 blanks and 1 valid
+15.5431 	DEBUG 	Uploading Texture Font fontname to graphics card
+15.5451 	DEBUG 	Upload of Texture Font fontname complete
+16.0388 	INFO 	keyboard.Keyboard is using ptb backend.
+16.0389 	EXP 	flank: status = STARTED
+16.0869 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+16.0874 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+16.0885 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='+', units='height', win=Window(...), wrapWidth=1)
+16.0905 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoDraw=False, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, draggable=False, flipHoriz=False, flipVert=False, font='Arial', fontFiles=[], height=np.float64(0.05), italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Эксперимент завершен, спасибо!', units='height', win=Window(...), wrapWidth=1)
+0.0174 	INFO 	Keyboard events cleared
+0.0173 	EXP 	text: autoDraw = True
+0.6936 	EXP 	Device response: <KeyPress from None: t=0.6046780429896899, value=space, duration=None>
+0.6971 	DEBUG 	Read excel file with openpyxl: cond.xlsx
+0.6977 	EXP 	Imported cond.xlsx as conditions, 20 conditions, 3 params
+0.6982 	EXP 	New trial (rep=0, index=0): <Trial 0 (0 in rep 0) data={'stimuls': '<<><<', 'condition': 'incongruent', 'response': 'right', 'thisN': 0, 'thisTrialN': 0, 'thisRepN': 0}>
+0.7090 	DATA 	Keypress: space
+0.7113 	WARNING 	t of last frame was 103.91ms (=1/9)
+0.7113 	EXP 	text: autoDraw = False
+0.7113 	EXP 	text_2: height = np.float64(0.05)
+0.7113 	EXP 	text_2: height = np.float64(0.05)
+0.7113 	EXP 	text_2: height = np.float64(0.05)
+0.7113 	EXP 	text_2: text = '<<><<'
+0.7113 	EXP 	text_2: autoDraw = True
+0.7413 	EXP 	Device response: <KeyPress from None: t=0.6046780429896899, value=space, duration=0.13228404099936597>
+2.0593 	EXP 	Device response: <KeyPress from None: t=2.0536271260061767, value=right, duration=None>
+2.1625 	DATA 	Keypress: right
+2.1656 	WARNING 	t of last frame was 108.68ms (=1/9)
+2.1656 	EXP 	text_2: autoDraw = False
+2.1656 	EXP 	text_3: autoDraw = True
+2.1718 	EXP 	Device response: <KeyPress from None: t=2.0536271260061767, value=right, duration=0.11630291698384099>
+2.2689 	EXP 	New trial (rep=0, index=1): <Trial 1 (1 in rep 0) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 1, 'thisTrialN': 1, 'thisRepN': 0}>
+2.2731 	EXP 	text_3: autoDraw = False
+2.2731 	EXP 	text_2: height = np.float64(0.05)
+2.2731 	EXP 	text_2: height = np.float64(0.05)
+2.2731 	EXP 	text_2: height = np.float64(0.05)
+2.2731 	EXP 	text_2: text = '<<<<<'
+2.2731 	EXP 	text_2: autoDraw = True
+3.0207 	EXP 	Device response: <KeyPress from None: t=3.0166728339972906, value=right, duration=None>
+3.0236 	DATA 	Keypress: right
+3.0272 	EXP 	text_2: autoDraw = False
+3.0272 	EXP 	text_3: autoDraw = True
+3.1373 	EXP 	Device response: <KeyPress from None: t=3.0166728339972906, value=right, duration=0.11223308398621157>
+3.2202 	EXP 	New trial (rep=0, index=2): <Trial 2 (2 in rep 0) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 2, 'thisTrialN': 2, 'thisRepN': 0}>
+3.2242 	EXP 	text_3: autoDraw = False
+3.2242 	EXP 	text_3: autoDraw = False
+3.2242 	EXP 	text_2: text = '<<<<<'
+3.2242 	EXP 	text_2: autoDraw = True
+3.7868 	EXP 	Device response: <KeyPress from None: t=3.7797200010099914, value=right, duration=None>
+3.7884 	DATA 	Keypress: right
+3.7918 	EXP 	text_2: autoDraw = False
+3.7918 	EXP 	text_3: autoDraw = True
+3.9100 	EXP 	Device response: <KeyPress from None: t=3.7797200010099914, value=right, duration=0.12824999997974373>
+3.9866 	EXP 	New trial (rep=0, index=3): <Trial 3 (3 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 3, 'thisTrialN': 3, 'thisRepN': 0}>
+3.9924 	EXP 	text_3: autoDraw = False
+3.9924 	EXP 	text_3: autoDraw = False
+3.9924 	EXP 	text_2: height = np.float64(0.05)
+3.9924 	EXP 	text_2: height = np.float64(0.05)
+3.9924 	EXP 	text_2: height = np.float64(0.05)
+3.9924 	EXP 	text_2: text = '>>>>>'
+3.9924 	EXP 	text_2: autoDraw = True
+4.5372 	EXP 	Device response: <KeyPress from None: t=4.526654876011889, value=right, duration=None>
+4.5390 	DATA 	Keypress: right
+4.5423 	EXP 	text_2: autoDraw = False
+4.5423 	EXP 	text_3: autoDraw = True
+4.6704 	EXP 	Device response: <KeyPress from None: t=4.526654876011889, value=right, duration=0.14033037499757484>
+4.7370 	EXP 	New trial (rep=0, index=4): <Trial 4 (4 in rep 0) data={'stimuls': '<<><<', 'condition': 'incongruent', 'response': 'right', 'thisN': 4, 'thisTrialN': 4, 'thisRepN': 0}>
+4.7429 	EXP 	text_3: autoDraw = False
+4.7429 	EXP 	text_3: autoDraw = False
+4.7429 	EXP 	text_2: height = np.float64(0.05)
+4.7429 	EXP 	text_2: height = np.float64(0.05)
+4.7429 	EXP 	text_2: height = np.float64(0.05)
+4.7429 	EXP 	text_2: text = '<<><<'
+4.7429 	EXP 	text_2: autoDraw = True
+5.2704 	EXP 	Device response: <KeyPress from None: t=5.268589958985103, value=right, duration=None>
+5.2742 	EXP 	text_2: autoDraw = False
+5.2742 	EXP 	text_3: autoDraw = True
+5.2774 	DATA 	Keypress: right
+5.3705 	EXP 	Device response: <KeyPress from None: t=5.268589958985103, value=right, duration=0.10031425001216121>
+5.4591 	EXP 	New trial (rep=0, index=5): <Trial 5 (5 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 5, 'thisTrialN': 5, 'thisRepN': 0}>
+5.4678 	EXP 	text_3: autoDraw = False
+5.4678 	EXP 	text_3: autoDraw = False
+5.4678 	EXP 	text_2: height = np.float64(0.05)
+5.4678 	EXP 	text_2: height = np.float64(0.05)
+5.4678 	EXP 	text_2: height = np.float64(0.05)
+5.4678 	EXP 	text_2: text = '>>>>>'
+5.4678 	EXP 	text_2: autoDraw = True
+5.8925 	EXP 	Device response: <KeyPress from None: t=5.887754875991959, value=right, duration=None>
+5.8941 	DATA 	Keypress: right
+5.9011 	EXP 	text_2: autoDraw = False
+5.9011 	EXP 	text_3: autoDraw = True
+6.0038 	EXP 	Device response: <KeyPress from None: t=5.887754875991959, value=right, duration=0.11218825000105426>
+6.0869 	EXP 	New trial (rep=0, index=6): <Trial 6 (6 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 6, 'thisTrialN': 6, 'thisRepN': 0}>
+6.0907 	EXP 	text_3: autoDraw = False
+6.0907 	EXP 	text_3: autoDraw = False
+6.0907 	EXP 	text_2: text = '>>>>>'
+6.0907 	EXP 	text_2: autoDraw = True
+6.7035 	EXP 	Device response: <KeyPress from None: t=6.701565583993215, value=right, duration=None>
+6.7074 	EXP 	text_2: autoDraw = False
+6.7074 	EXP 	text_3: autoDraw = True
+6.7105 	DATA 	Keypress: right
+6.8214 	EXP 	Device response: <KeyPress from None: t=6.701565583993215, value=right, duration=0.11237887499737553>
+6.8928 	EXP 	New trial (rep=0, index=7): <Trial 7 (7 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 7, 'thisTrialN': 7, 'thisRepN': 0}>
+6.9011 	EXP 	text_3: autoDraw = False
+6.9011 	EXP 	text_3: autoDraw = False
+6.9011 	EXP 	text_2: text = '>>>>>'
+6.9011 	EXP 	text_2: autoDraw = True
+7.5204 	EXP 	Device response: <KeyPress from None: t=7.513652875990374, value=right, duration=None>
+7.5221 	DATA 	Keypress: right
+7.5255 	EXP 	text_2: autoDraw = False
+7.5255 	EXP 	text_3: autoDraw = True
+7.6592 	EXP 	Device response: <KeyPress from None: t=7.513652875990374, value=right, duration=0.14421733299968764>
+7.7201 	EXP 	New trial (rep=0, index=8): <Trial 8 (8 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 8, 'thisTrialN': 8, 'thisRepN': 0}>
+7.7240 	EXP 	text_3: autoDraw = False
+7.7240 	EXP 	text_3: autoDraw = False
+7.7240 	EXP 	text_2: text = '>>>>>'
+7.7240 	EXP 	text_2: autoDraw = True
+8.2701 	EXP 	Device response: <KeyPress from None: t=8.260636168008205, value=right, duration=None>
+8.2715 	DATA 	Keypress: right
+8.2750 	EXP 	text_2: autoDraw = False
+8.2750 	EXP 	text_3: autoDraw = True
+8.4201 	EXP 	Device response: <KeyPress from None: t=8.260636168008205, value=right, duration=0.15224783300072886>
+8.4698 	EXP 	New trial (rep=0, index=9): <Trial 9 (9 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 9, 'thisTrialN': 9, 'thisRepN': 0}>
+8.4737 	EXP 	text_3: autoDraw = False
+8.4737 	EXP 	text_3: autoDraw = False
+8.4737 	EXP 	text_2: text = '>>>>>'
+8.4737 	EXP 	text_2: autoDraw = True
+9.0701 	EXP 	Device response: <KeyPress from None: t=9.059648583992384, value=right, duration=None>
+9.0716 	DATA 	Keypress: right
+9.0751 	EXP 	text_2: autoDraw = False
+9.0751 	EXP 	text_3: autoDraw = True
+9.2110 	EXP 	Device response: <KeyPress from None: t=9.059648583992384, value=right, duration=0.1482085419993382>
+9.2700 	EXP 	New trial (rep=0, index=10): <Trial 10 (10 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 10, 'thisTrialN': 10, 'thisRepN': 0}>
+9.2736 	EXP 	text_3: autoDraw = False
+9.2736 	EXP 	text_3: autoDraw = False
+9.2736 	EXP 	text_2: text = '>>>>>'
+9.2736 	EXP 	text_2: autoDraw = True
+9.9367 	EXP 	Device response: <KeyPress from None: t=9.93556704299408, value=left, duration=None>
+9.9406 	EXP 	text_2: autoDraw = False
+9.9406 	EXP 	text_3: autoDraw = True
+9.9437 	DATA 	Keypress: left
+10.0535 	EXP 	Device response: <KeyPress from None: t=9.93556704299408, value=left, duration=0.1123466250137426>
+10.1276 	EXP 	New trial (rep=0, index=11): <Trial 11 (11 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 11, 'thisTrialN': 11, 'thisRepN': 0}>
+10.1345 	EXP 	text_3: autoDraw = False
+10.1345 	EXP 	text_3: autoDraw = False
+10.1345 	EXP 	text_2: text = '>>>>>'
+10.1345 	EXP 	text_2: autoDraw = True
+10.7260 	EXP 	Device response: <KeyPress from None: t=10.721553543000482, value=right, duration=None>
+10.7275 	DATA 	Keypress: right
+10.7345 	EXP 	text_2: autoDraw = False
+10.7345 	EXP 	text_3: autoDraw = True
+10.8757 	EXP 	Device response: <KeyPress from None: t=10.721553543000482, value=right, duration=0.14835475001018494>
+10.9202 	EXP 	New trial (rep=0, index=12): <Trial 12 (12 in rep 0) data={'stimuls': '>><>>', 'condition': 'incongruent', 'response': 'left', 'thisN': 12, 'thisTrialN': 12, 'thisRepN': 0}>
+10.9261 	EXP 	text_3: autoDraw = False
+10.9261 	EXP 	text_3: autoDraw = False
+10.9261 	EXP 	text_2: height = np.float64(0.05)
+10.9261 	EXP 	text_2: height = np.float64(0.05)
+10.9261 	EXP 	text_2: height = np.float64(0.05)
+10.9261 	EXP 	text_2: text = '>><>>'
+10.9261 	EXP 	text_2: autoDraw = True
+11.2371 	EXP 	Device response: <KeyPress from None: t=11.232514625997283, value=right, duration=None>
+11.2387 	DATA 	Keypress: right
+11.2420 	EXP 	text_2: autoDraw = False
+11.2420 	EXP 	text_3: autoDraw = True
+11.3537 	EXP 	Device response: <KeyPress from None: t=11.232514625997283, value=right, duration=0.11644554199301638>
+11.4368 	EXP 	New trial (rep=0, index=13): <Trial 13 (13 in rep 0) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 13, 'thisTrialN': 13, 'thisRepN': 0}>
+11.4424 	EXP 	text_3: autoDraw = False
+11.4424 	EXP 	text_3: autoDraw = False
+11.4424 	EXP 	text_2: height = np.float64(0.05)
+11.4424 	EXP 	text_2: height = np.float64(0.05)
+11.4424 	EXP 	text_2: height = np.float64(0.05)
+11.4424 	EXP 	text_2: text = '<<<<<'
+11.4424 	EXP 	text_2: autoDraw = True
+11.7762 	EXP 	Device response: <KeyPress from None: t=11.772509959002491, value=right, duration=None>
+11.7777 	DATA 	Keypress: right
+11.7845 	EXP 	text_2: autoDraw = False
+11.7845 	EXP 	text_3: autoDraw = True
+11.8871 	EXP 	Device response: <KeyPress from None: t=11.772509959002491, value=right, duration=0.10442245900048874>
+11.9701 	EXP 	New trial (rep=0, index=14): <Trial 14 (14 in rep 0) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 14, 'thisTrialN': 14, 'thisRepN': 0}>
+11.9740 	EXP 	text_3: autoDraw = False
+11.9740 	EXP 	text_3: autoDraw = False
+11.9740 	EXP 	text_2: text = '<<<<<'
+11.9740 	EXP 	text_2: autoDraw = True
+12.2091 	EXP 	Device response: <KeyPress from None: t=12.206500917993253, value=right, duration=None>
+12.2178 	EXP 	text_2: autoDraw = False
+12.2178 	EXP 	text_3: autoDraw = True
+12.2212 	DATA 	Keypress: right
+12.3590 	EXP 	Device response: <KeyPress from None: t=12.206500917993253, value=right, duration=0.14831750001758337>
+12.4036 	EXP 	New trial (rep=0, index=15): <Trial 15 (15 in rep 0) data={'stimuls': '>><>>', 'condition': 'incongruent', 'response': 'left', 'thisN': 15, 'thisTrialN': 15, 'thisRepN': 0}>
+12.4091 	EXP 	text_3: autoDraw = False
+12.4091 	EXP 	text_3: autoDraw = False
+12.4091 	EXP 	text_2: height = np.float64(0.05)
+12.4091 	EXP 	text_2: height = np.float64(0.05)
+12.4091 	EXP 	text_2: height = np.float64(0.05)
+12.4091 	EXP 	text_2: text = '>><>>'
+12.4091 	EXP 	text_2: autoDraw = True
+12.6540 	EXP 	Device response: <KeyPress from None: t=12.649500125990016, value=right, duration=None>
+12.6580 	EXP 	text_2: autoDraw = False
+12.6580 	EXP 	text_3: autoDraw = True
+12.6612 	DATA 	Keypress: right
+12.7703 	EXP 	Device response: <KeyPress from None: t=12.649500125990016, value=right, duration=0.12030404200777411>
+12.8424 	EXP 	New trial (rep=0, index=16): <Trial 16 (16 in rep 0) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 16, 'thisTrialN': 16, 'thisRepN': 0}>
+12.8513 	EXP 	text_3: autoDraw = False
+12.8513 	EXP 	text_3: autoDraw = False
+12.8513 	EXP 	text_2: height = np.float64(0.05)
+12.8513 	EXP 	text_2: height = np.float64(0.05)
+12.8513 	EXP 	text_2: height = np.float64(0.05)
+12.8513 	EXP 	text_2: text = '<<<<<'
+12.8513 	EXP 	text_2: autoDraw = True
+13.0701 	EXP 	Device response: <KeyPress from None: t=13.062474542995915, value=right, duration=None>
+13.0716 	DATA 	Keypress: right
+13.0751 	EXP 	text_2: autoDraw = False
+13.0751 	EXP 	text_3: autoDraw = True
+13.1927 	EXP 	Device response: <KeyPress from None: t=13.062474542995915, value=right, duration=0.12834912500693463>
+13.2698 	EXP 	New trial (rep=0, index=17): <Trial 17 (17 in rep 0) data={'stimuls': '<<><<', 'condition': 'incongruent', 'response': 'right', 'thisN': 17, 'thisTrialN': 17, 'thisRepN': 0}>
+13.2754 	EXP 	text_3: autoDraw = False
+13.2754 	EXP 	text_3: autoDraw = False
+13.2754 	EXP 	text_2: height = np.float64(0.05)
+13.2754 	EXP 	text_2: height = np.float64(0.05)
+13.2754 	EXP 	text_2: height = np.float64(0.05)
+13.2754 	EXP 	text_2: text = '<<><<'
+13.2754 	EXP 	text_2: autoDraw = True
+13.4536 	EXP 	Device response: <KeyPress from None: t=13.451465543010272, value=right, duration=None>
+13.4576 	EXP 	text_2: autoDraw = False
+13.4576 	EXP 	text_3: autoDraw = True
+13.4607 	DATA 	Keypress: right
+13.5704 	EXP 	Device response: <KeyPress from None: t=13.451465543010272, value=right, duration=0.1124346659926232>
+13.6425 	EXP 	New trial (rep=0, index=18): <Trial 18 (18 in rep 0) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 18, 'thisTrialN': 18, 'thisRepN': 0}>
+13.6512 	EXP 	text_3: autoDraw = False
+13.6512 	EXP 	text_3: autoDraw = False
+13.6512 	EXP 	text_2: height = np.float64(0.05)
+13.6512 	EXP 	text_2: height = np.float64(0.05)
+13.6512 	EXP 	text_2: height = np.float64(0.05)
+13.6512 	EXP 	text_2: text = '>>>>>'
+13.6512 	EXP 	text_2: autoDraw = True
+13.9038 	EXP 	Device response: <KeyPress from None: t=13.892486958997324, value=right, duration=None>
+13.9053 	DATA 	Keypress: right
+13.9086 	EXP 	text_2: autoDraw = False
+13.9086 	EXP 	text_3: autoDraw = True
+14.0205 	EXP 	Device response: <KeyPress from None: t=13.892486958997324, value=right, duration=0.12440683398745023>
+14.1032 	EXP 	New trial (rep=0, index=19): <Trial 19 (19 in rep 0) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 19, 'thisTrialN': 19, 'thisRepN': 0}>
+14.1085 	EXP 	text_3: autoDraw = False
+14.1085 	EXP 	text_3: autoDraw = False
+14.1085 	EXP 	text_2: height = np.float64(0.05)
+14.1085 	EXP 	text_2: height = np.float64(0.05)
+14.1085 	EXP 	text_2: height = np.float64(0.05)
+14.1085 	EXP 	text_2: text = '<<<<<'
+14.1085 	EXP 	text_2: autoDraw = True
+14.2703 	EXP 	Device response: <KeyPress from None: t=14.265580500999931, value=right, duration=None>
+14.2720 	DATA 	Keypress: right
+14.2754 	EXP 	text_2: autoDraw = False
+14.2754 	EXP 	text_3: autoDraw = True
+14.3870 	EXP 	Device response: <KeyPress from None: t=14.265580500999931, value=right, duration=0.112229207996279>
+14.4700 	EXP 	New trial (rep=1, index=0): <Trial 20 (0 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 20, 'thisTrialN': 0, 'thisRepN': 1}>
+14.4756 	EXP 	text_3: autoDraw = False
+14.4756 	EXP 	text_3: autoDraw = False
+14.4756 	EXP 	text_2: height = np.float64(0.05)
+14.4756 	EXP 	text_2: height = np.float64(0.05)
+14.4756 	EXP 	text_2: height = np.float64(0.05)
+14.4756 	EXP 	text_2: text = '>>>>>'
+14.4756 	EXP 	text_2: autoDraw = True
+14.6764 	EXP 	Device response: <KeyPress from None: t=14.674452709004981, value=right, duration=None>
+14.6845 	EXP 	text_2: autoDraw = False
+14.6845 	EXP 	text_3: autoDraw = True
+14.6876 	DATA 	Keypress: right
+14.7929 	EXP 	Device response: <KeyPress from None: t=14.674452709004981, value=right, duration=0.11635179200675339>
+14.8713 	EXP 	New trial (rep=1, index=1): <Trial 21 (1 in rep 1) data={'stimuls': '>><>>', 'condition': 'incongruent', 'response': 'left', 'thisN': 21, 'thisTrialN': 1, 'thisRepN': 1}>
+14.8770 	EXP 	text_3: autoDraw = False
+14.8770 	EXP 	text_3: autoDraw = False
+14.8770 	EXP 	text_2: height = np.float64(0.05)
+14.8770 	EXP 	text_2: height = np.float64(0.05)
+14.8770 	EXP 	text_2: height = np.float64(0.05)
+14.8770 	EXP 	text_2: text = '>><>>'
+14.8770 	EXP 	text_2: autoDraw = True
+15.0565 	EXP 	Device response: <KeyPress from None: t=15.053439709008671, value=right, duration=None>
+15.0582 	DATA 	Keypress: right
+15.0615 	EXP 	text_2: autoDraw = False
+15.0615 	EXP 	text_3: autoDraw = True
+15.2203 	EXP 	Device response: <KeyPress from None: t=15.053439709008671, value=right, duration=0.16045266698347405>
+15.2537 	EXP 	New trial (rep=1, index=2): <Trial 22 (2 in rep 1) data={'stimuls': '>><>>', 'condition': 'incongruent', 'response': 'left', 'thisN': 22, 'thisTrialN': 2, 'thisRepN': 1}>
+15.2576 	EXP 	text_3: autoDraw = False
+15.2576 	EXP 	text_3: autoDraw = False
+15.2576 	EXP 	text_2: text = '>><>>'
+15.2576 	EXP 	text_2: autoDraw = True
+15.5872 	EXP 	Device response: <KeyPress from None: t=15.581433209008537, value=right, duration=None>
+15.5912 	EXP 	text_2: autoDraw = False
+15.5912 	EXP 	text_3: autoDraw = True
+15.5942 	DATA 	Keypress: right
+15.6931 	EXP 	Device response: <KeyPress from None: t=15.581433209008537, value=right, duration=0.10833191699930467>
+15.7759 	EXP 	New trial (rep=1, index=3): <Trial 23 (3 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 23, 'thisTrialN': 3, 'thisRepN': 1}>
+15.7845 	EXP 	text_3: autoDraw = False
+15.7845 	EXP 	text_3: autoDraw = False
+15.7845 	EXP 	text_2: height = np.float64(0.05)
+15.7845 	EXP 	text_2: height = np.float64(0.05)
+15.7845 	EXP 	text_2: height = np.float64(0.05)
+15.7845 	EXP 	text_2: text = '>>>>>'
+15.7845 	EXP 	text_2: autoDraw = True
+15.9704 	EXP 	Device response: <KeyPress from None: t=15.968427584011806, value=right, duration=None>
+15.9742 	EXP 	text_2: autoDraw = False
+15.9742 	EXP 	text_3: autoDraw = True
+15.9775 	DATA 	Keypress: right
+16.1204 	EXP 	Device response: <KeyPress from None: t=15.968427584011806, value=right, duration=0.1483708749874495>
+16.1605 	EXP 	New trial (rep=1, index=4): <Trial 24 (4 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 24, 'thisTrialN': 4, 'thisRepN': 1}>
+16.1679 	EXP 	text_3: autoDraw = False
+16.1679 	EXP 	text_3: autoDraw = False
+16.1679 	EXP 	text_2: text = '>>>>>'
+16.1679 	EXP 	text_2: autoDraw = True
+16.3037 	EXP 	Device response: <KeyPress from None: t=16.299469376011984, value=right, duration=None>
+16.3052 	DATA 	Keypress: right
+16.3087 	EXP 	text_2: autoDraw = False
+16.3087 	EXP 	text_3: autoDraw = True
+16.4259 	EXP 	Device response: <KeyPress from None: t=16.299469376011984, value=right, duration=0.12426508299540728>
+16.5036 	EXP 	New trial (rep=1, index=5): <Trial 25 (5 in rep 1) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 25, 'thisTrialN': 5, 'thisRepN': 1}>
+16.5092 	EXP 	text_3: autoDraw = False
+16.5092 	EXP 	text_3: autoDraw = False
+16.5092 	EXP 	text_2: height = np.float64(0.05)
+16.5092 	EXP 	text_2: height = np.float64(0.05)
+16.5092 	EXP 	text_2: height = np.float64(0.05)
+16.5092 	EXP 	text_2: text = '<<<<<'
+16.5092 	EXP 	text_2: autoDraw = True
+16.6867 	EXP 	Device response: <KeyPress from None: t=16.681454250996467, value=right, duration=None>
+16.6883 	DATA 	Keypress: right
+16.6917 	EXP 	text_2: autoDraw = False
+16.6917 	EXP 	text_3: autoDraw = True
+16.8372 	EXP 	Device response: <KeyPress from None: t=16.681454250996467, value=right, duration=0.1443759580142796>
+16.8869 	EXP 	New trial (rep=1, index=6): <Trial 26 (6 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 26, 'thisTrialN': 6, 'thisRepN': 1}>
+16.8924 	EXP 	text_3: autoDraw = False
+16.8924 	EXP 	text_3: autoDraw = False
+16.8924 	EXP 	text_2: height = np.float64(0.05)
+16.8924 	EXP 	text_2: height = np.float64(0.05)
+16.8924 	EXP 	text_2: height = np.float64(0.05)
+16.8924 	EXP 	text_2: text = '>>>>>'
+16.8924 	EXP 	text_2: autoDraw = True
+17.1368 	EXP 	Device response: <KeyPress from None: t=17.12941008398775, value=right, duration=None>
+17.1383 	DATA 	Keypress: right
+17.1417 	EXP 	text_2: autoDraw = False
+17.1417 	EXP 	text_3: autoDraw = True
+17.2704 	EXP 	Device response: <KeyPress from None: t=17.12941008398775, value=right, duration=0.14032616702024825>
+17.3366 	EXP 	New trial (rep=1, index=7): <Trial 27 (7 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 27, 'thisTrialN': 7, 'thisRepN': 1}>
+17.3404 	EXP 	text_3: autoDraw = False
+17.3404 	EXP 	text_3: autoDraw = False
+17.3404 	EXP 	text_2: text = '>>>>>'
+17.3404 	EXP 	text_2: autoDraw = True
+17.5761 	EXP 	Device response: <KeyPress from None: t=17.572445375990355, value=right, duration=None>
+17.5776 	DATA 	Keypress: right
+17.5845 	EXP 	text_2: autoDraw = False
+17.5845 	EXP 	text_3: autoDraw = True
+17.7191 	EXP 	Device response: <KeyPress from None: t=17.572445375990355, value=right, duration=0.14036979200318456>
+17.7701 	EXP 	New trial (rep=1, index=8): <Trial 28 (8 in rep 1) data={'stimuls': '<<><<', 'condition': 'incongruent', 'response': 'right', 'thisN': 28, 'thisTrialN': 8, 'thisRepN': 1}>
+17.7758 	EXP 	text_3: autoDraw = False
+17.7758 	EXP 	text_3: autoDraw = False
+17.7758 	EXP 	text_2: height = np.float64(0.05)
+17.7758 	EXP 	text_2: height = np.float64(0.05)
+17.7758 	EXP 	text_2: height = np.float64(0.05)
+17.7758 	EXP 	text_2: text = '<<><<'
+17.7758 	EXP 	text_2: autoDraw = True
+18.0039 	EXP 	Device response: <KeyPress from None: t=17.997423875989625, value=right, duration=None>
+18.0056 	DATA 	Keypress: right
+18.0090 	EXP 	text_2: autoDraw = False
+18.0090 	EXP 	text_3: autoDraw = True
+18.1422 	EXP 	Device response: <KeyPress from None: t=17.997423875989625, value=right, duration=0.1409445000172127>
+18.2037 	EXP 	New trial (rep=1, index=9): <Trial 29 (9 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 29, 'thisTrialN': 9, 'thisRepN': 1}>
+18.2094 	EXP 	text_3: autoDraw = False
+18.2094 	EXP 	text_3: autoDraw = False
+18.2094 	EXP 	text_2: height = np.float64(0.05)
+18.2094 	EXP 	text_2: height = np.float64(0.05)
+18.2094 	EXP 	text_2: height = np.float64(0.05)
+18.2094 	EXP 	text_2: text = '>>>>>'
+18.2094 	EXP 	text_2: autoDraw = True
+18.4537 	EXP 	Device response: <KeyPress from None: t=18.446415001002606, value=right, duration=None>
+18.4552 	DATA 	Keypress: right
+18.4586 	EXP 	text_2: autoDraw = False
+18.4586 	EXP 	text_3: autoDraw = True
+18.5595 	EXP 	Device response: <KeyPress from None: t=18.446415001002606, value=right, duration=0.10838812499423511>
+18.6535 	EXP 	New trial (rep=1, index=10): <Trial 30 (10 in rep 1) data={'stimuls': '<<><<', 'condition': 'incongruent', 'response': 'right', 'thisN': 30, 'thisTrialN': 10, 'thisRepN': 1}>
+18.6593 	EXP 	text_3: autoDraw = False
+18.6593 	EXP 	text_3: autoDraw = False
+18.6593 	EXP 	text_2: height = np.float64(0.05)
+18.6593 	EXP 	text_2: height = np.float64(0.05)
+18.6593 	EXP 	text_2: height = np.float64(0.05)
+18.6593 	EXP 	text_2: text = '<<><<'
+18.6593 	EXP 	text_2: autoDraw = True
+18.8701 	EXP 	Device response: <KeyPress from None: t=18.864615583996056, value=right, duration=None>
+18.8715 	DATA 	Keypress: right
+18.8750 	EXP 	text_2: autoDraw = False
+18.8750 	EXP 	text_3: autoDraw = True
+19.0206 	EXP 	Device response: <KeyPress from None: t=18.864615583996056, value=right, duration=0.14813829198828898>
+19.0698 	EXP 	New trial (rep=1, index=11): <Trial 31 (11 in rep 1) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 31, 'thisTrialN': 11, 'thisRepN': 1}>
+19.0753 	EXP 	text_3: autoDraw = False
+19.0753 	EXP 	text_3: autoDraw = False
+19.0753 	EXP 	text_2: height = np.float64(0.05)
+19.0753 	EXP 	text_2: height = np.float64(0.05)
+19.0753 	EXP 	text_2: height = np.float64(0.05)
+19.0753 	EXP 	text_2: text = '<<<<<'
+19.0753 	EXP 	text_2: autoDraw = True
+19.3424 	EXP 	Device response: <KeyPress from None: t=19.33641158399405, value=right, duration=None>
+19.3438 	DATA 	Keypress: right
+19.3512 	EXP 	text_2: autoDraw = False
+19.3512 	EXP 	text_3: autoDraw = True
+19.4548 	EXP 	Device response: <KeyPress from None: t=19.33641158399405, value=right, duration=0.11629837501095608>
+19.5369 	EXP 	New trial (rep=1, index=12): <Trial 32 (12 in rep 1) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 32, 'thisTrialN': 12, 'thisRepN': 1}>
+19.5407 	EXP 	text_3: autoDraw = False
+19.5407 	EXP 	text_3: autoDraw = False
+19.5407 	EXP 	text_2: text = '<<<<<'
+19.5407 	EXP 	text_2: autoDraw = True
+19.8204 	EXP 	Device response: <KeyPress from None: t=19.810710251011187, value=right, duration=None>
+19.8220 	DATA 	Keypress: right
+19.8255 	EXP 	text_2: autoDraw = False
+19.8255 	EXP 	text_3: autoDraw = True
+19.9593 	EXP 	Device response: <KeyPress from None: t=19.810710251011187, value=right, duration=0.14402462498401292>
+20.0202 	EXP 	New trial (rep=1, index=13): <Trial 33 (13 in rep 1) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 33, 'thisTrialN': 13, 'thisRepN': 1}>
+20.0241 	EXP 	text_3: autoDraw = False
+20.0241 	EXP 	text_3: autoDraw = False
+20.0241 	EXP 	text_2: text = '<<<<<'
+20.0241 	EXP 	text_2: autoDraw = True
+20.2205 	EXP 	Device response: <KeyPress from None: t=20.219403168011922, value=left, duration=None>
+20.2243 	EXP 	text_2: autoDraw = False
+20.2243 	EXP 	text_3: autoDraw = True
+20.2274 	DATA 	Keypress: left
+20.3204 	EXP 	Device response: <KeyPress from None: t=20.219403168011922, value=left, duration=0.10026979097165167>
+20.4089 	EXP 	New trial (rep=1, index=14): <Trial 34 (14 in rep 1) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 34, 'thisTrialN': 14, 'thisRepN': 1}>
+20.4180 	EXP 	text_3: autoDraw = False
+20.4180 	EXP 	text_3: autoDraw = False
+20.4180 	EXP 	text_2: text = '<<<<<'
+20.4180 	EXP 	text_2: autoDraw = True
+20.8592 	EXP 	Device response: <KeyPress from None: t=20.85638179301168, value=left, duration=None>
+20.8607 	DATA 	Keypress: left
+20.8678 	EXP 	text_2: autoDraw = False
+20.8678 	EXP 	text_3: autoDraw = True
+20.9370 	EXP 	Device response: <KeyPress from None: t=20.85638179301168, value=left, duration=0.0723760409746319>
+21.0536 	EXP 	New trial (rep=1, index=15): <Trial 35 (15 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 35, 'thisTrialN': 15, 'thisRepN': 1}>
+21.0592 	EXP 	text_3: autoDraw = False
+21.0592 	EXP 	text_3: autoDraw = False
+21.0592 	EXP 	text_2: height = np.float64(0.05)
+21.0592 	EXP 	text_2: height = np.float64(0.05)
+21.0592 	EXP 	text_2: height = np.float64(0.05)
+21.0592 	EXP 	text_2: text = '>>>>>'
+21.0592 	EXP 	text_2: autoDraw = True
+21.3536 	EXP 	Device response: <KeyPress from None: t=21.343423833983252, value=left, duration=None>
+21.3551 	DATA 	Keypress: left
+21.3586 	EXP 	text_2: autoDraw = False
+21.3586 	EXP 	text_3: autoDraw = True
+21.4372 	EXP 	Device response: <KeyPress from None: t=21.343423833983252, value=left, duration=0.09223887501866557>
+21.5535 	EXP 	New trial (rep=1, index=16): <Trial 36 (16 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 36, 'thisTrialN': 16, 'thisRepN': 1}>
+21.5574 	EXP 	text_3: autoDraw = False
+21.5574 	EXP 	text_3: autoDraw = False
+21.5574 	EXP 	text_2: text = '>>>>>'
+21.5574 	EXP 	text_2: autoDraw = True
+21.7702 	EXP 	Device response: <KeyPress from None: t=21.7594351680018, value=right, duration=None>
+21.7716 	DATA 	Keypress: right
+21.7750 	EXP 	text_2: autoDraw = False
+21.7750 	EXP 	text_3: autoDraw = True
+21.8371 	EXP 	Device response: <KeyPress from None: t=21.7594351680018, value=right, duration=0.06827012498979457>
+21.9698 	EXP 	New trial (rep=1, index=17): <Trial 37 (17 in rep 1) data={'stimuls': '<<<<<', 'condition': 'congruent', 'response': 'left', 'thisN': 37, 'thisTrialN': 17, 'thisRepN': 1}>
+21.9754 	EXP 	text_3: autoDraw = False
+21.9754 	EXP 	text_3: autoDraw = False
+21.9754 	EXP 	text_2: height = np.float64(0.05)
+21.9754 	EXP 	text_2: height = np.float64(0.05)
+21.9754 	EXP 	text_2: height = np.float64(0.05)
+21.9754 	EXP 	text_2: text = '<<<<<'
+21.9754 	EXP 	text_2: autoDraw = True
+22.4261 	EXP 	Device response: <KeyPress from None: t=22.421402501000557, value=left, duration=None>
+22.4276 	DATA 	Keypress: left
+22.4345 	EXP 	text_2: autoDraw = False
+22.4345 	EXP 	text_3: autoDraw = True
+22.5371 	EXP 	Device response: <KeyPress from None: t=22.421402501000557, value=left, duration=0.10435483299079351>
+22.6202 	EXP 	New trial (rep=1, index=18): <Trial 38 (18 in rep 1) data={'stimuls': '>>>>>', 'condition': 'congruent', 'response': 'right', 'thisN': 38, 'thisTrialN': 18, 'thisRepN': 1}>
+22.6259 	EXP 	text_3: autoDraw = False
+22.6259 	EXP 	text_3: autoDraw = False
+22.6259 	EXP 	text_2: height = np.float64(0.05)
+22.6259 	EXP 	text_2: height = np.float64(0.05)
+22.6259 	EXP 	text_2: height = np.float64(0.05)
+22.6259 	EXP 	text_2: text = '>>>>>'
+22.6259 	EXP 	text_2: autoDraw = True
+23.0372 	EXP 	Device response: <KeyPress from None: t=23.033376459003193, value=left, duration=None>
+23.0390 	DATA 	Keypress: left
+23.0423 	EXP 	text_2: autoDraw = False
+23.0423 	EXP 	text_3: autoDraw = True
+23.1272 	EXP 	Device response: <KeyPress from None: t=23.033376459003193, value=left, duration=0.08826362498803064>
+23.2368 	EXP 	New trial (rep=1, index=19): <Trial 39 (19 in rep 1) data={'stimuls': '<<><<', 'condition': 'incongruent', 'response': 'right', 'thisN': 39, 'thisTrialN': 19, 'thisRepN': 1}>
+23.2423 	EXP 	text_3: autoDraw = False
+23.2423 	EXP 	text_3: autoDraw = False
+23.2423 	EXP 	text_2: height = np.float64(0.05)
+23.2423 	EXP 	text_2: height = np.float64(0.05)
+23.2423 	EXP 	text_2: height = np.float64(0.05)
+23.2423 	EXP 	text_2: text = '<<><<'
+23.2423 	EXP 	text_2: autoDraw = True
+23.4204 	EXP 	Device response: <KeyPress from None: t=23.413345709006535, value=right, duration=None>
+23.4220 	DATA 	Keypress: right
+23.4255 	EXP 	text_2: autoDraw = False
+23.4255 	EXP 	text_3: autoDraw = True
+23.5368 	EXP 	Device response: <KeyPress from None: t=23.413345709006535, value=right, duration=0.11642079197918065>
+23.6244 	EXP 	text_3: autoDraw = False
+23.6244 	EXP 	text_3: autoDraw = False
+23.6244 	EXP 	text_4: autoDraw = True
+23.7591 	EXP 	Device response: <KeyPress from None: t=23.75633062599809, value=left, duration=None>
+23.7604 	DATA 	Keypress: left
+23.8868 	EXP 	Device response: <KeyPress from None: t=23.75633062599809, value=left, duration=0.1283084170136135>
+24.6180 	EXP 	text_4: autoDraw = False
+24.6180 	EXP 	text_4: autoDraw = False
+24.6201 	EXP 	flank: status = STOPPED
+24.6294 	INFO 	saved data to '/Users/valkovskaaaleksandragmail.com/Desktop/Flanker/data/pilot _flank_2026-03-05_16h58.39.299.csv'
+24.6303 	INFO 	saved data to /Users/valkovskaaaleksandragmail.com/Desktop/Flanker/data/pilot _flank_2026-03-05_16h58.39.299.psydat
+25.0675 	DEBUG 	Saving data for flank ExperimentHandler
+25.0685 	WARNING 	Stopping key buffers but this could be dangerous ifother keyboards rely on the same.
