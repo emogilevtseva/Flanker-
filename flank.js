@@ -10,6 +10,9 @@ const { Scheduler } = util;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 const { round } = util;
 
+let currentLoop; 
+let frameDur;
+
 
 // store info about the experiment session:
 let expName = 'flank';  // from the Builder filename that created this script
@@ -17,8 +20,7 @@ let expInfo = {
     'participant': `${util.pad(Number.parseFloat(util.randint(0, 999999)).toFixed(0), 6)}`,
     'session': '001',
 };
-let currentLoop; 
-let frameDur;
+
 let PILOTING = util.getUrlParameters().has('__pilotToken');
 
 // Start code blocks for 'Before Experiment'
@@ -923,6 +925,7 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
 
 
