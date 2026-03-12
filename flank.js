@@ -22,6 +22,8 @@ var text_5Clock;
 var globalClock;
 var routineTimer;
 
+var instrClock, text, key_resp, instrComponents;
+
 // store info about the experiment session:
 let expName = 'flank';  // from the Builder filename that created this script
 let expInfo = {
@@ -948,6 +950,7 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
 
 
