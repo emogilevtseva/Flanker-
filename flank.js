@@ -13,16 +13,29 @@ const { round } = util;
 var currentLoop;
 var frameDur;
 
-var instrClock;
-var expClock;
-var fixClock;
-var endClock;
-var text_5Clock;
+// ---- Clocks ----
+var instrClock, expClock, fixClock, endClock, text_5Clock;
+var globalClock, routineTimer;
 
-var globalClock;
-var routineTimer;
+// ---- Instruction components ----
+var text, key_resp, instrComponents;
 
-var instrClock, text, key_resp, instrComponents;
+// ---- Experiment components ----
+var text_2, key_resp_2, expComponents;
+
+// ---- Fixation ----
+var text_3, fixComponents;
+
+// ---- End routine ----
+var text_4, endComponents;
+
+// ---- Data saving routine ----
+var text_6, text_5Components;
+
+// ---- Trials loop ----
+var trials;
+var _key_resp_allKeys, _key_resp_2_allKeys;
+
 
 // store info about the experiment session:
 let expName = 'flank';  // from the Builder filename that created this script
@@ -136,79 +149,74 @@ async function updateInfo() {
 }
 
 async function experimentInit() {
-  // Initialize components for Routine "instr"
-  instrClock = new util.Clock();
-  text = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'text',
-    text: 'Добрый день, тест Фланкера. Вам будет предложено рассмотреть стрелки, направленные вправо и влево, Вам нужно будет сосредоточить свое внимание ТОЛЬКО на серединной стрелке. \n\nИспользуйте клавиши со стрелками влево и вправо, чтобы указать направление, в которое указывает средняя стрелка.\n\nДействуйте как можно быстрее и точнее.\n\nНажмите пробел, чтобы начать',
-    font: 'Arial',
-    units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
+
+        // --- Instruction (instr) ---
+    text = new visual.TextStim({
+        win: psychoJS.window,
+        name: 'text',
+        text: 'Добрый день, тест Фланкера. Вам будет предложено рассмотреть стрелки, направленные вправо и влево. Сосредоточьтесь только на средней стрелке.\n\nИспользуйте стрелки влево/вправо для ответа.\n\nДействуйте как можно быстрее.\n\nНажмите пробел, чтобы начать',
+        font: 'Arial',
+        pos: [0, 0],
+        height: 0.05,
+        color: new util.Color('white')
+    });
+    key_resp = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+    instrComponents = [text, key_resp];
+
+        // --- Experiment (exp) ---
+    text_2 = new visual.TextStim({
+        win: psychoJS.window,
+        name: 'text_2',
+        text: '',
+        font: 'Arial',
+        pos: [0, 0],
+        height: 0.05,
+        color: new util.Color('white')
+    });
+    key_resp_2 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
+    expComponents = [text_2, key_resp_2];
+
+    // --- Fixation (fix) ---
+    text_3 = new visual.TextStim({
+        win: psychoJS.window,
+        name: 'text_3',
+        text: '+',
+        font: 'Arial',
+        pos: [0, 0],
+        height: 0.05,
+        color: new util.Color('white')
+    });
+    fixComponents = [text_3];
+
+    
+    // --- End (end) ---
+    text_4 = new visual.TextStim({
+        win: psychoJS.window,
+        name: 'text_4',
+        text: 'Эксперимент завершен, спасибо!',
+        font: 'Arial',
+        pos: [0, 0],
+        height: 0.05,
+        color: new util.Color('white')
+    });
+    endComponents = [text_4];
+
   
-  key_resp = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
-  
-  // Initialize components for Routine "exp"
-  expClock = new util.Clock();
-  text_2 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'text_2',
-    text: '',
-    font: 'Arial',
-    units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
-  
-  key_resp_2 = new core.Keyboard({psychoJS: psychoJS, clock: new util.Clock(), waitForStart: true});
-  
-  // Initialize components for Routine "fix"
-  fixClock = new util.Clock();
-  text_3 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'text_3',
-    text: '+',
-    font: 'Arial',
-    units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
-  
-  // Initialize components for Routine "end"
-  endClock = new util.Clock();
-  text_4 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'text_4',
-    text: 'Эксперимент завершен, спасибо!',
-    font: 'Arial',
-    units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
-  
-  // Initialize components for Routine "text_5"
-  text_5Clock = new util.Clock();
-  text_6 = new visual.TextStim({
-    win: psychoJS.window,
-    name: 'text_6',
-    text: 'подождите, идет запись данных эксперимента...',
-    font: 'Arial',
-    units: undefined, 
-    pos: [0, 0], draggable: false, height: 0.05,  wrapWidth: undefined, ori: 0.0,
-    languageStyle: 'LTR',
-    color: new util.Color('white'),  opacity: undefined,
-    depth: 0.0 
-  });
+
+    // --- Data saving (text_5) ---
+    text_6 = new visual.TextStim({
+        win: psychoJS.window,
+        name: 'text_6',
+        text: 'Подождите, идет запись данных эксперимента...',
+        font: 'Arial',
+        pos: [0, 0],
+        height: 0.05,
+        color: new util.Color('white')
+    });
+    text_5Components = [text_6];
+
+    return Scheduler.Event.NEXT;
+}
   
   // Create some handy timers
   globalClock = new util.Clock();  // to track the time since experiment started
@@ -950,6 +958,7 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
 
 
