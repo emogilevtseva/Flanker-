@@ -18,6 +18,7 @@ let expInfo = {
     'session': '001',
 };
 let currentLoop; 
+let frameDur;
 let PILOTING = util.getUrlParameters().has('__pilotToken');
 
 // Start code blocks for 'Before Experiment'
@@ -922,6 +923,7 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
 
 
