@@ -46,47 +46,62 @@ psychoJS.openWindow({
   backgroundImage: '',
   backgroundFit: 'none',
 });
-// schedule the experiment:
-psychoJS.schedule(psychoJS.gui.DlgFromDict({
-  dictionary: expInfo,
-  title: expName
-}));
+
+// --- schedule the experiment ---
+psychoJS.schedule(
+    psychoJS.gui.DlgFromDict({
+        dictionary: expInfo,
+        title: expName
+    })
+);
 
 const flowScheduler = new Scheduler(psychoJS);
 const dialogCancelScheduler = new Scheduler(psychoJS);
-psychoJS.scheduleCondition(function() { return (psychoJS.gui.dialogComponent.button === 'OK'); },flowScheduler, dialogCancelScheduler);
 
-// flowScheduler gets run if the participants presses OK
-flowScheduler.add(updateInfo); // add timeStamp
-flowScheduler.add(experimentInit);
-flowScheduler.add(instrRoutineBegin());
-flowScheduler.add(instrRoutineEachFrame());
-flowScheduler.add(instrRoutineEnd());
+// если участник нажал OK в диалоговом окне
+psychoJS.scheduleCondition(
+    () => (psychoJS.gui.dialogComponent.button === 'OK'),
+    flowScheduler,
+    dialogCancelScheduler
+);
+
+// --- flowScheduler добавляем рутинные функции без скобок ---
+flowScheduler.add(updateInfo);        // добавляем таймштамп и инфо о сессии
+flowScheduler.add(experimentInit);    // инициализация всех компонентов
+
+// --- инструкции ---
+flowScheduler.add(instrRoutineBegin);
+flowScheduler.add(instrRoutineEachFrame);
+flowScheduler.add(instrRoutineEnd);
+
+// --- основной цикл эксперимента ---
 const trialsLoopScheduler = new Scheduler(psychoJS);
-flowScheduler.add(trialsLoopBegin(trialsLoopScheduler));
+flowScheduler.add(() => trialsLoopBegin(trialsLoopScheduler)); // передаем функцию с аргументом
 flowScheduler.add(trialsLoopScheduler);
-flowScheduler.add(trialsLoopEnd);
+flowScheduler.add(trialsLoopEnd);  // конец цикла
 
+// --- завершающие рутины ---
+flowScheduler.add(endRoutineBegin);
+flowScheduler.add(endRoutineEachFrame);
+flowScheduler.add(endRoutineEnd);
 
+flowScheduler.add(text_5RoutineBegin);
+flowScheduler.add(text_5RoutineEachFrame);
+flowScheduler.add(text_5RoutineEnd);
 
-flowScheduler.add(endRoutineBegin());
-flowScheduler.add(endRoutineEachFrame());
-flowScheduler.add(endRoutineEnd());
-flowScheduler.add(text_5RoutineBegin());
-flowScheduler.add(text_5RoutineEachFrame());
-flowScheduler.add(text_5RoutineEnd());
-flowScheduler.add(quitPsychoJS, 'Thank you for your patience.', true);
+// --- завершение эксперимента ---
+flowScheduler.add(() => quitPsychoJS('Thank you for your patience.', true));
 
-// quit if user presses Cancel in dialog box:
-dialogCancelScheduler.add(quitPsychoJS, 'Thank you for your patience.', false);
+// --- если пользователь нажал Cancel ---
+dialogCancelScheduler.add(() => quitPsychoJS('Thank you for your patience.', false));
 
+// запуск эксперимента
 psychoJS.start({
-  expName: expName,
-  expInfo: expInfo,
-  resources: [
-    // resources:
-    {'name': 'cond.xlsx', 'path': 'cond.xlsx'},
-  ]
+    expName: expName,
+    expInfo: expInfo,
+    resources: [
+        { 'name': 'cond.xlsx', 'path': 'cond.xlsx' }
+    ]
 });
 
 psychoJS.experimentLogger.setLevel(core.Logger.ServerLevel.INFO);
@@ -933,6 +948,7 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
 
 
