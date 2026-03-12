@@ -789,7 +789,7 @@ function text_5RoutineBegin(snapshot) {
     // Extract data object from experiment 
     let dataObj = psychoJS._experiment._trialsData; 
     // Convert data object to CSV 
-    let data = [Object.keys(databObj[0])].concat(databObj).map(it => { 
+    let data = [Object.keys(dataObj[0])].concat(dataObj).map(it => { 
     return Object.values(it).toString() 
     }).join('\n') 
     // Send data to OSF via DataPipe 
@@ -922,6 +922,7 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
 
 
