@@ -13,6 +13,15 @@ const { round } = util;
 var currentLoop;
 var frameDur;
 
+var instrClock;
+var expClock;
+var fixClock;
+var endClock;
+var text_5Clock;
+
+var globalClock;
+var routineTimer;
+
 // store info about the experiment session:
 let expName = 'flank';  // from the Builder filename that created this script
 let expInfo = {
@@ -924,6 +933,7 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
 
 
