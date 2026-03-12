@@ -10,9 +10,8 @@ const { Scheduler } = util;
 const { abs, sin, cos, PI: pi, sqrt } = Math;
 const { round } = util;
 
-let currentLoop; 
-let frameDur;
-
+var currentLoop;
+var frameDur;
 
 // store info about the experiment session:
 let expName = 'flank';  // from the Builder filename that created this script
@@ -925,6 +924,7 @@ async function quitPsychoJS(message, isCompleted) {
   
   return Scheduler.Event.QUIT;
 }
+
 
 
 
